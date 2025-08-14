@@ -18,6 +18,10 @@
 		{
 			"Name": "HoudiniEngine",
 			"Enabled": true
+		},
+		{
+			"Name": "JsonBlueprintUtilities",
+			"Enabled": true
 		}
 	]
 }
