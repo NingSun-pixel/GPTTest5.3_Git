@@ -3,75 +3,92 @@
 From GPT, Houdini to Unreal: One-click AI-based Terrain Generation
 
 This project implements an AI-assisted procedural asset pipeline that generates complete terrains and environment setups in Unreal Engine with a single operation. By combining GPT-driven natural language parameter extraction, Houdini procedural generation, and Unreal Engine integration, the system enables creators to produce rich 3D environments in minutes instead of hours.
+🌍 AI-Assisted Terrain Generation
 
-📖 This work was developed as part of my MSc Dissertation in Computer Science (Augmented & Virtual Reality) at Trinity College Dublin.
+An end-to-end pipeline for one-click terrain generation using GPT, Houdini, and Unreal Engine.
+Users can describe environments in natural language, and the system automatically creates fully playable terrains with erosion, material layers, and scattered vegetation.
 
-🚀 Features
+🎮 Overview
 
-Natural Language Input → Describe your scene (e.g., “a grassy valley with pine trees and a small river”).
+AI-Assisted Terrain Generation is a procedural content pipeline that connects natural language input with game-ready environments.
 
-AI Parameter Extraction → GPT converts text into structured JSON parameters (terrain size, slope limits, vegetation density, etc.).
+GPT interprets user descriptions into structured parameters.
 
-Procedural Generation in Houdini → Houdini Digital Assets (HDAs) generate terrains, erosion layers, vegetation scattering, and material assignments.
+Houdini generates terrains, erosion layers, and vegetation scattering.
 
-Automated Unreal Integration → Scenes are imported into Unreal Engine 5.3 with correct materials, instanced foliage, and collisions.
+Unreal Engine 5.3 imports the results automatically, producing a ready-to-play scene in minutes.
 
-Rapid Iteration → Small edits regenerate in seconds, full terrains in 1–2 minutes (vs ~1–3 hours manually).
+“From a single sentence to a complete world — one click transforms your ideas into interactive 3D landscapes.”
+
+📺 Demo Videos
+
+▶️ Final Terrain Showcase
+ (placeholder link)
+
+▶️ How to Use the Pipeline
+ (placeholder link)
+
+🧩 Core Features
+
+Natural Language to Parameters
+
+Enter a plain description (“grassy valley with a river and pine forest”) → structured JSON parameters.
+
+Procedural Generation in Houdini
+
+Terrain heightfield with erosion simulation.
+
+Automatic material layering (grass, soil, rock).
+
+Vegetation and rock scattering with randomized transforms.
+
+Seamless Unreal Integration
+
+Landscape layers imported and auto-bound.
+
+Instanced foliage & props placed correctly.
+
+Fully playable maps in seconds to minutes.
+
+Performance Gains
+
+Small terrain: ~30s
+
+Large terrain (1km × 1km): ~6 min (vs ~3h manually)
+
+⌨️ Usage
+
+Open Unreal Engine and launch the Editor Utility Widget.
+
+Enter a natural language description of the scene.
+
+GPT generates structured parameters (JSON).
+
+Houdini creates terrain and scattering automatically.
+
+Assets are imported back into Unreal → ready to play.
 
 🛠️ Tech Stack
 
-AI: ChatGPT-3.5 (parameter generation)
+ChatGPT-3.5 → Natural language to procedural parameters
 
-Procedural Tools: Houdini 20.5
+Houdini 20.5 → Procedural asset generation
 
-Game Engine: Unreal Engine 5.3
+Unreal Engine 5.3 → Real-time environment visualization
 
-Automation: Python + Unreal Blueprints + Houdini Engine API
+Python & Blueprints → Data transfer + automation
 
-⚙️ How It Works
+🚀 Future Work
 
-Input: Enter natural language description in the Unreal Editor UI.
+Add support for animated assets, weather, and gameplay logic.
 
-AI Processing: GPT extracts numeric values and outputs JSON.
+Enable real-time parameter editing inside Unreal.
 
-Procedural Generation: Houdini HDA uses parameters to:
+Extend pipeline to Unity, Godot, and other engines.
 
-Initialize terrain
+👤 Author
 
-Apply erosion & layers (grass, soil, rock)
-
-Scatter vegetation & rocks
-
-Bind Unreal asset paths for auto-instancing
-
-Integration: Python + Blueprint scripts sync assets into UE5.3.
-
-Result: Fully playable map in minutes.
-
-📊 Evaluation
-
-Performance (RTX 3060 Ti, i5-12400F, 32GB RAM):
-
-Small (150×150m): ~28s generation, 120+ FPS
-
-Medium (400×400m): ~1 min, 50+ FPS
-
-Large (1000×1000m): ~6 min, ~40 FPS
-
-Productivity Gains: Reduced workflow time from hours → minutes.
-
-User Feedback:
-
-Beginners: Could create playable maps without learning Houdini/UE terrain tools.
-
-Experts: Used pipeline for rapid prototyping and biome variations.
-
-📈 Future Work
-
-Extend support to animated assets, weather, and gameplay logic.
-
-Add real-time editing inside Unreal without full regeneration.
-
-Adapt pipeline for Unity, Godot, or custom engines.
-
-Fine-tune LLM on game design datasets for more precise parameter extraction.
+Yuning Sun
+🎓 MSc Computer Science (AR/VR), Trinity College Dublin
+🌐 Graphics Engineer / Technical Artist
+📩 [Add your contact / portfolio / LinkedIn here]
