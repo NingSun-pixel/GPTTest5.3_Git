@@ -20,7 +20,7 @@ Users can describe environments in natural language, and the system automaticall
 
 ## 📺 Demo Videos  
 
-- ▶️ [Final Terrain Showcase](https://www.youtube.com/) 
+- ▶️ [Final Terrain Showcase](https://youtu.be/HMsPl0aJFrs) 
 - ▶️ [How to Use the Pipeline](https://youtu.be/dxFyJdg12x4) 
 
 ---
