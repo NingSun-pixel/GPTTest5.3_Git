@@ -41,7 +41,6 @@ Users can describe environments in natural language, and the system automaticall
   - Small terrain: ~30s  
   - Large terrain (1km × 1km): ~6 min (vs ~3h manually)  
 
----
 
 ## ⌨️ Usage  
 
@@ -51,7 +50,6 @@ Users can describe environments in natural language, and the system automaticall
 4. Houdini creates terrain and scattering automatically  
 5. Assets are imported back into Unreal → **ready to play**  
 
----
 
 ## 🛠️ Tech Stack  
 
@@ -60,7 +58,6 @@ Users can describe environments in natural language, and the system automaticall
 - **Unreal Engine 5.3** → Real-time environment visualization  
 - **Python & Blueprints** → Data transfer + automation  
 
----
 
 ## 🚀 Future Work  
 
