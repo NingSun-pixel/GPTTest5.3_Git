@@ -1,4 +1,3 @@
-This project implements an AI-assisted procedural asset pipeline that generates complete terrains and environment setups in Unreal Engine with a single operation. By combining GPT-driven natural language parameter extraction, Houdini procedural generation, and Unreal Engine integration, the system enables creators to produce rich 3D environments in minutes instead of hours.
 # 🌍 AI-Assisted Terrain Generation  
 
 An end-to-end pipeline for **one-click terrain generation** using **GPT, Houdini, and Unreal Engine**.  
@@ -15,8 +14,6 @@ Users can describe environments in natural language, and the system automaticall
 - **Unreal Engine 5.3** imports the results automatically, producing a ready-to-play scene in minutes  
 
 > “From a single sentence to a complete world — one click transforms your ideas into interactive 3D landscapes.”  
-
----
 
 ## 📺 Demo Videos  
 
