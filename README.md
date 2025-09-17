@@ -1,7 +1,3 @@
-# GPTTest-5.3
- Houdini-UE-GPT
-From GPT, Houdini to Unreal: One-click AI-based Terrain Generation
-
 This project implements an AI-assisted procedural asset pipeline that generates complete terrains and environment setups in Unreal Engine with a single operation. By combining GPT-driven natural language parameter extraction, Houdini procedural generation, and Unreal Engine integration, the system enables creators to produce rich 3D environments in minutes instead of hours.
 # 🌍 AI-Assisted Terrain Generation  
 
